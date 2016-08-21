@@ -1,12 +1,11 @@
-# Site settings
 title: 莱茵河畔的小约翰
 SEOTitle: 莱茵河畔的小约翰
 header-img: img/home-bg.jpg
 email: wangjialin@hust.edu.cn
 description: ""
 keyword: "汪加林，NLP， tensorflow"
-url: ""              # your host, for absolute URL
-baseurl: "http://wangjialin114.github.io"                # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://wangjialin114.github.io"              # your host, for absolute URL
+baseurl: ""                # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -16,7 +15,7 @@ weibo_username:     u/2169426517
 zhihu_username:     wang-jia-lin-29
 github_username:    wangjialin114
 #twitter_username:  huxpro
-facebook_username:  汪加林
+facebook_username:  wangjialin
 # linkedin_username:  firstname-lastname-idxxxx
 
 
