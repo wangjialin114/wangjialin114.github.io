@@ -4,6 +4,7 @@ title:      "RNNLM初探"
 subtitle:   "Magic of RNN"
 date:       2016-08-24
 author:     "WangJialin"
+mathjax:    true
 tags:
     - linux
     
@@ -14,14 +15,12 @@ tags:
 这应该是最原始
 
 运行结果：
+
 ```
 
 Epoch 0
-
 Start Training
-
 Step 1451: Training Perplexity: 467.649200
-
 Start Vailidation
 Validation Perplexity : 319.398163
 Epoch 1
