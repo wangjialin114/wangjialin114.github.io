@@ -15,9 +15,13 @@ tags:
 
 运行结果：
 ```
+
 Epoch 0
+
 Start Training
+
 Step 1451: Training Perplexity: 467.649200
+
 Start Vailidation
 Validation Perplexity : 319.398163
 Epoch 1
@@ -95,4 +99,5 @@ Start Training
 Step 1451: Training Perplexity: 89.611221
 Start Vailidation
 Validation Perplexity : 173.743546
+
 ```
