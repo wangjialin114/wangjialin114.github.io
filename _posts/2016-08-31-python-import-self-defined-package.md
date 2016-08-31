@@ -28,18 +28,19 @@ tags:
 
 一般情况下，以下面的目录结构为例，假设我们要在main.py中使用utils包中的module的话。
 
+```
 - ParentPack(folder)
-	-  \_\_init\_\_py
+	-  __init__py
  	-  Sub1Pack(folder)
- 		- \_\_init\_\_.py
+ 		- __init__.py
  		- module11.py
  		- module12.py
  	-  Sub2Pack(folder)
-    	- \_\_init\_\_.py
+    	- __init__.py
  		- module21.py
  		- module22.py
 	- main.py
-
+```
 (ps:init前后分别为两条短划线)
 
 ### 如何使目录成为一个package
