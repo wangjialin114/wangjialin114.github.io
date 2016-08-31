@@ -2,7 +2,7 @@
 layout:     post
 title:      "Ubuntu16.04系统安利篇"
 subtitle:   "Loneliness Makes Man Stronger!"
-date:       2016-07-20
+date:       2016-08-24
 author:     "WangJialin"
 tags:
     - linux
