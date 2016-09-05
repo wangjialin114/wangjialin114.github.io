@@ -5,7 +5,8 @@ subtitle:   "Big Step from Word to Vector"
 date:       2016-06-05
 author:     "WangJialin"
 tags:
-    - linux
+    - nlp
+    - tensorflow
     
 ---
 
