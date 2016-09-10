@@ -76,8 +76,8 @@ A Tensor. Has the same type as input.
 
 ## 参考链接：
 
-http://stackoverflow.com/questions/34642595/tensorflow-strides-argument
-http://www.cnblogs.com/tornadomeet/p/3258122.html
+- http://stackoverflow.com/questions/34642595/tensorflow-strides-argument
+- http://www.cnblogs.com/tornadomeet/p/3258122.html
 
 
   [1]: https://www.tensorflow.org/versions/r0.10/tutorials/mnist/pros/index.html#deep-mnist-for-experts
