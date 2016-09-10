@@ -72,8 +72,7 @@ A Tensor. Has the same type as input.
 ## 3. Python Notebook 源码
 
 官方给的都是python文件，并且很有条理，很显然那是经过整合的;对于新手来说，我觉得python notebook真的是太棒了！一行行写，体现了整个思维的形成过程。
-这里是我的源码地址，有兴趣的可以看看。
-https://github.com/WangJialinHUST/DL-tensorflow/blob/master/MNIST%20for%20Experts.ipynb
+我写的代码在[这里](https://github.com/wangjialin114/nlp-tensorflow/blob/master/tensorflow-tutorial/MNIST_for_Experts.ipynb)。
 
 ## 参考链接：
 

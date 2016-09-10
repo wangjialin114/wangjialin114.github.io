@@ -81,6 +81,8 @@ learning rate 和loss函数的输出节点上。
 
 <a name="ref"></a>
 
+代码在[这里](https://github.com/wangjialin114/nlp-tensorflow/blob/master/tensorflow-tutorial/MNIST_Tensorflow_Mechanics_101.ipynb)
+
 ## 参考链接
 
 https://www.tensorflow.org/versions/r0.10/tutorials/mnist/tf/index.html

@@ -1,4 +1,16 @@
-tensorflow入门教程
+---
+layout:     post
+title:      "tensorflow入门教程"
+subtitle:   "万事开头难"
+date:       2016-09-10
+author:     "WangJialin"
+tags:
+    - deep-learning
+    - tensorflow
+
+---
+
+
 
 ## 官方教程
 
@@ -20,8 +32,7 @@ tensorflow入门教程
 
 ## 几个我在学习相应demo时的一些问题以及理解
 
-- [tensorflow学习笔记-MNIST Tensorflow Mechanics 101]()
-- [tensorflow 学习笔记-Deep MNIST for Expert]()
-- [Named Entity Rocognition]()
+- [tensorflow学习笔记-MNIST Tensorflow Mechanics 101](http://jialin114.wang/2016/08/15/tensorflow-MNIST-machanics/)
+- [tensorflow 学习笔记-Deep MNIST for Expert](http://jialin114.wang/2016/08/10/tensorflow-Deep-MNIST-for-Experts/)
+- [Named Entity Rocognition](http://jialin114.wang/2016/09/10/NER/)
 - [IMDB Sentiment Analysis(Polarity)]()
-- 
