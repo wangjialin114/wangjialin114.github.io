@@ -5,11 +5,13 @@ subtitle:   "常规导弹"
 date:       2016-09-09
 author:     "WangJialin"
 tags:
-    - Machine Learning 
+    - Machine Learning
     - BOOST
 
 ---
 
+- [理解偏置-方差折中](#bias-var)
+- [控制过拟合](#overfitting)
 
 如果说，DL是核武器的话，我觉得XGBOOST算得上常规导弹了。XGBOOST由陈天奇同学提出，从去年开始在Kaggle比赛上大放异彩。风头虽然比不上DL，可也是上镜率非常高。据说工业界用的也是非常普遍。这段时间打算学习下，顺便拿它来刷刷kaggle试试手。
 
@@ -23,11 +25,15 @@ tags:
 
 本篇文章试图提供xgboost中的调参的一些有用的指南。
 
+<a name="bias-var"></a>
+
 ### 理解偏置-方差折中
 
 如果你上过机器学习或者统计课程，这应该是其中一个最重要的概念之一。当我们想模型变得越来越复杂时（例如，深度变大）;模型会有更好的拟合训练数据，生成一个偏置更小的模型。但是，如此复杂的模型需要更多的数据去拟合。
 
 xgboost中的许多参数是关于偏置-方差折中的。最好的模型小心地权衡模型的复杂度和它的预测能力。[**参数文档**](https://xgboost.readthedocs.io/en/latest/parameter.html)中将会告诉你哪些参数将会模型更保守。这可以帮助你更好的在复杂的模型和简单的模型之间取舍。
+
+<a name="overfitting"></a>
 
 ### 控制过拟合
 
