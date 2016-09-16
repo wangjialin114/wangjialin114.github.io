@@ -12,8 +12,8 @@ tags:
 
 - [k-means的局限性](#k-means-constraint)
 - [高斯混合聚类](#GMM-def)
-- [EM算法求解](#EM)
-- [过拟合](#overfitting)
+	- [EM算法求解](#EM)
+	- [过拟合](#overfitting)
 - [参考文献](#ref)
 
 <a name="k-means-constraint"></a>
@@ -86,6 +86,7 @@ $$\frac{\partial LL(D)}{\partial \mu_i}=0$$
 $$\frac{\partial LL(D)}{\partial \Sigma_i}=0$$
 
 最终可求得：
+
 $$\mu_i=\frac{\sum_i^m\gamma_{ij}*x_i}{\sum_i^m\gamma_{ij}}$$
 
 $$\Sigma_i=\frac{\sum_i^m\gamma_{ij}*(x_i-\mu_j)(x_i-\mu_j)^T}{\sum_i^m\gamma_{ij}}$$
@@ -101,6 +102,7 @@ $$\sum_i\alpha_i=1$$
 $$LL(D)+\lambda(\sum_i \alpha_i -1)$$
 
 可求得：
+
 $$\alpha_i=\frac{1}{m}\sum_{i=1}^{m}\gamma_{ij}$$
 
 **`上面是GMM学推导，其结果是非常符合我们的直觉的。观察就可以发现，其实GMM的参数也就是普通高斯模型的加权而已。`**
