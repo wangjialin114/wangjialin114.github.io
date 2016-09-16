@@ -12,8 +12,10 @@ tags:
 
 - [k-means的局限性](#k-means-constraint)
 - [高斯混合聚类](#GMM-def)
-	- [EM算法求解](#EM)
-	- [过拟合](#overfitting)
+- [EM算法求解](#EM)
+	- [EM算法估计GMM参数的初始化](#EM-init)
+	- [GMM的整个求解过程图例](#GMM-iter)
+- [过拟合](#overfitting)
 - [参考文献](#ref)
 
 <a name="k-means-constraint"></a>
@@ -109,9 +111,15 @@ $$\alpha_i=\frac{1}{m}\sum_{i=1}^{m}\gamma_{ij}$$
 
 上面是关于EM算法的一轮推导，那么EM算法如何对GMM进行初始化呢？
 
+<a name="EM-init"></a>
+
 #### EM算法估计GMM参数的初始化
 
 有很多种方法可以初始化EM算法，但是选择合适的初始化显得至关重要，这对算法的收敛速率和寻找到的局部最优解的质量很重要。
+
+<a name="GMM-iter"></a>
+
+#### GMM的整个求解过程图例
 
 <img src="/img/2016_latter_half_year/GMM-0.png" width = "340" height = "300" alt="图片名称" align="left"/>
 <img src="/img/2016_latter_half_year/GMM-1.png" width = "340" height = "320" alt="图片名称"
